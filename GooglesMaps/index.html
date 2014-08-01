@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <style type="text/css">
-      html { height: 100% }
-      body { height: 100%; margin: 0; padding: 0 }
-      #map-canvas { height: 100% }
-    </style>
-    <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxV63xLfnfHCcPQzqbIzpe1izK3OLjPyc">
-    </script>
-    <script type="text/javascript" src="js/maps.js"></script>
-  </head>
-  <body>
-    <div id="map-canvas"/>
-  </body>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<style type="text/css">
+	html { height: 100% }
+	body { height: 100%; margin: 0; padding: 0 }
+	#map-canvas { height: 100%; z-index: 1; }
+</style>
+<script type="text/javascript"
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxV63xLfnfHCcPQzqbIzpe1izK3OLjPyc&language=ja">
+</script>
+<script type="text/javascript" src="js/marker.js"></script>
+
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+</head>
+<body>
+	<div id="map-canvas"></div><!--/#map-canvas-->
+</body>
 </html>
