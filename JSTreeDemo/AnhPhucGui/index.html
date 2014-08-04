@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jsTree test</title>
+  <link rel="stylesheet" href="dist/themes/default/style.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="dist/libs/jquery.js"></script>
+  <script src="dist/jstree.min.js"></script>
+</head>
+<body>
+  <div id="jstree">
+  </div>
+  <button>demo button</button>
+
+
+  <script>
+  $(function () {
+    $('#jstree').jstree({
+					'core' : {
+						'data' : {
+							'url' : 'index.php?operation=get_node',
+							'data' : function (node) {
+								return { 'id' : node.id };
+							}
+						}
+          }
+    });
+    $('#jstree').on("changed.jstree", function (e, data) {
+      console.log(data.selected);
+    });
+  });
+  </script>
+</body>
+</html>

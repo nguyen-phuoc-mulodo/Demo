@@ -1,0 +1,22 @@
+[
+	{
+		"name": "css",
+		"type": 0,
+		"url": "/css"	
+	},
+	{
+		"name": "js",
+		"type": 0,
+		"url": "/js"	
+	},
+	{
+		"name": "inc",
+		"type": 0,
+		"url": "/inc"	
+	},
+	{
+		"name": "sp",
+		"type": 0,
+		"url": "/sp"	
+	},
+]
