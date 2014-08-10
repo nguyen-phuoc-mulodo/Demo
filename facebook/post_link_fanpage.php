@@ -13,7 +13,7 @@ define('FB_APP_SECRET', '093b0b371673a8b831dcc87d62fee7b0');
 FacebookSession::setDefaultApplication(FB_APP_ID, FB_APP_SECRET);
 
 //Create a login helper
-$url_redirect = 'http://localhost/demo/facebook/post_link.php'; //url to redirect when log in
+$url_redirect = 'http://localhost/demo/facebook/post_link_fanpage.php'; //url to redirect when log in
 $helper = new FacebookRedirectLoginHelper($url_redirect);
 
 try {
@@ -28,32 +28,24 @@ if (isset($session)) { // Login successful
     //*** Exchange for long-lived token
     $facebook = new FacebookSession($session->getAccessToken());
     $long_lived_token = $facebook->getLongLivedSession();
-
     //*** Make an api call
     try {
-        $response = ( new FacebookRequest( $long_lived_token, 'POST', '/me/feed', array(
-				'link'      => 'http://geekboy.in/hanh-trang-cho-developer-2014/',
-				'message'   => 'Hello, EchPay!',
-            )
-        ))->execute()->getGraphObject() ;  
+        $pages = (new FacebookRequest(
+            $session, 'GET', '/me/accounts'
+        ))->execute()->getGraphObject(\Facebook\GraphPage::className()); 
         
-        echo "Posted with id: ". $response->getProperty('id');
+    } catch(FacebookRequestException $e) {
 
+            echo "Exception occured, code: " . $e->getCode();
+            echo " with message: " . $e->getMessage();
 
-	} catch(FacebookRequestException $e) {
-
-		echo "Exception occured, code: " . $e->getCode();
-		echo " with message: " . $e->getMessage();
-
-	} catch (Exception $ex) {
-		echo $ex->getMessage();
-	}    
-
-    print_r($session);
+    } catch (Exception $ex) {
+            echo 'Error '. $ex->getMessage();
+    }    
 
 } else { // Not logged
     echo 'Not logged <br/>';
-    $login_url = $helper->getLoginUrl(array(''));
+    $login_url = $helper->getLoginUrl(array('manage_pages'));
     echo "<a href='". $login_url. "'>Login with facebook</a>";
 }
 
