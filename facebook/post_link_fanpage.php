@@ -4,6 +4,7 @@ session_start();
 use Facebook\FacebookRedirectLoginHelper;
 use Facebook\FacebookSession;
 use Facebook\FacebookRequest;
+use Facebook\GraphUserPage;
 
 require_once 'vendor/autoload.php';
 
@@ -30,12 +31,43 @@ if (isset($session)) { // Login successful
     $long_lived_token = $facebook->getLongLivedSession();
     //*** Make an api call
     try {
-        $pages = (new FacebookRequest(
-            $session, 'GET', '/me/accounts'
-        ))->execute()->getGraphObject(\Facebook\GraphPage::className()); 
+        $request = new FacebookRequest(
+            $long_lived_token,
+            'GET',
+            '/me/accounts'
+        );
+        
+        $response = $request->execute();
+        
+        $grapObject = $response->getGraphObjectList(Facebook\GraphPage::className());
+        
+        $Geekboy_page = $grapObject[0];
+        
+        
+        $page_id = $Geekboy_page->getId();
+        $page_name = $Geekboy_page->getName();
+        
+        
+        $page_token = $Geekboy_page->getAccessToken();
+        
+        /* make the API call */
+        
+        $page_session = new FacebookSession($page_token);
+        $request = new FacebookRequest(
+          $page_session,
+          'POST',
+          '/'.$page_id.'/feed',
+          array (
+            'message' => 'Hello, Geekboy!',
+          )
+        );
+        $response = $request->execute();
+        $graphObject = $response->getGraphObject(Facebook\GraphPage::className());
+        
+        /* handle the result */
+        echo "Posted with id: ". $graphObject->getProperty('id');
         
     } catch(FacebookRequestException $e) {
-
             echo "Exception occured, code: " . $e->getCode();
             echo " with message: " . $e->getMessage();
 
@@ -44,7 +76,7 @@ if (isset($session)) { // Login successful
     }    
 
 } else { // Not logged
-    echo 'Not logged <br/>';
+    echo '<h2>Not logged</h2> <br/>';
     $login_url = $helper->getLoginUrl(array('manage_pages'));
     echo "<a href='". $login_url. "'>Login with facebook</a>";
 }
