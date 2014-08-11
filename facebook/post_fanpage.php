@@ -1,6 +1,6 @@
 <?php
 /*
- * This demo for posting a link to your personal page on Facebook.
+ * This demo for posting a link to your fanpage on Facebook.
  */
 
 session_start();
