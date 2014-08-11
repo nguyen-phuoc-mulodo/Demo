@@ -57,7 +57,7 @@ if (isset($session)) { // Login successful
 
 } else { // Not logged
     echo 'Not logged <br/>';
-    $login_url = $helper->getLoginUrl(array(''));
+    $login_url = $helper->getLoginUrl(array('publish_actions'));
     echo "<a href='". $login_url. "'>Login with facebook</a>";
 }
 
