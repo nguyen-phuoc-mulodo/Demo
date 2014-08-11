@@ -60,5 +60,10 @@ class GraphPage extends GraphObject
   {
     return $this->getProperty('name');
   }
+  
+  public function getAccessToken()
+  {
+    return $this->getProperty('access_token');
+  }  
 
 }

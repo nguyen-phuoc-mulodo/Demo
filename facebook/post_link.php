@@ -17,7 +17,7 @@ define('FB_APP_SECRET', '093b0b371673a8b831dcc87d62fee7b0');
 FacebookSession::setDefaultApplication(FB_APP_ID, FB_APP_SECRET);
 
 //Create a login helper
-$url_redirect = 'http://localhost/facebook/post_link.php'; //url to redirect when log in
+$url_redirect = 'http://localhost/demo/facebook/post_link.php'; //url to redirect when log in
 $helper = new FacebookRedirectLoginHelper($url_redirect);
 
 try {
@@ -35,9 +35,9 @@ if (isset($session)) { // Login successful
 
     //*** Make an api call
     try {
-        $response = ( new FacebookRequest( $session, 'POST', '/me/feed', array(
+        $response = ( new FacebookRequest( $long_lived_token, 'POST', '/me/feed', array(
 				'link'      => 'http://geekboy.in/hanh-trang-cho-developer-2014/',
-				'message'   => 'Hello, EchPay! Đây là bài viết mình post tự động bằng cách sử dụng api của Facebook PHP SDK v4',
+				'message'   => 'Hello, EchPay!',
             )
         ))->execute()->getGraphObject() ;  
         
@@ -57,6 +57,7 @@ if (isset($session)) { // Login successful
 
 } else { // Not logged
     echo 'Not logged <br/>';
-    $login_url = $helper->getLoginUrl();
+    $login_url = $helper->getLoginUrl(array(''));
     echo "<a href='". $login_url. "'>Login with facebook</a>";
 }
+
