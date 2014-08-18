@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Progressbar - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="progress.js"></script>
+  <link rel="stylesheet" href="progress.css">
+  <script>
+    $(function() {
+      $( "#progressbar" ).progressbar({
+        value: false
+      });
+    });
+  </script>
+</head>
+<body>
+
+<div>
+  <input type="checkbox" class="get" name="data[]" value="Bike">bike
+  <input type="checkbox" class="get" name="data[]" value="Car">car
+  <input type="checkbox" class="get" name="data[]" value="Bike">bike
+  <input type="checkbox" class="get" name="data[]" value="Car">car
+  <input type="checkbox" class="get" name="data[]" value="Bike">bike
+  <input type="checkbox" class="get" name="data[]" value="Car">car
+  <input type="checkbox" class="get" name="data[]" value="Bike">bike
+  <input type="checkbox" class="get" name="data[]" value="Car">car
+</div>
+<div>
+  <input type="checkbox" class="up" name="data[]" value="Bike">bike
+  <input type="checkbox" class="up" name="data[]" value="Car">car
+  <input type="checkbox" class="up" name="data[]" value="Bike">bike
+  <input type="checkbox" class="up" name="data[]" value="Car">car
+  <input type="checkbox" class="up" name="data[]" value="Bike">bike
+  <input type="checkbox" class="up" name="data[]" value="Car">car
+  <input type="checkbox" class="up" name="data[]" value="Bike">bike
+  <input type="checkbox" class="up" name="data[]" value="Car">car
+</div>
+<div id="progressbar"></div>
+<div>
+  <button id="downloadButton">Start Download</button>
+</div>
+<div>
+  <textarea id="log" rows="10" cols="100"></textarea>
+</div>
+</body>
+</html>

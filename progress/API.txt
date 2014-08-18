@@ -1,0 +1,46 @@
+lib/file_define_type.php
+define id_a = 1 ,id_b = 2,....
+
+==================================================================================
+
+get: /api/generate_html
+params: id
+output: text (ex: generate a successful/ generate a fails)
+
+function index(){
+ ...
+  witch
+  case id_a:
+    generate_a
+  case id_b:
+    generate_b
+  ...
+
+}
+
+private
+  function generate_a(){}
+  function generate_b(){}
+  ...
+
+==================================================================================
+
+get: /api/upload_html
+params: id
+output: text (ex: upload a successful/ upload a fails)
+
+function index(){
+ ...
+  witch
+  case id_a:
+    upload_a
+  case id_b:
+    upload_b
+  ...
+
+}
+
+private
+  function upload_a(){}
+  function upload_b(){}
+  ...
