@@ -1,5 +1,6 @@
 /*
- * 
+ * This is Documentation for using Google Maps
+ * Written by: EchPay.
  */
 
 //*** Set a new location
