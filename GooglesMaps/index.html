@@ -8,17 +8,27 @@
 	#map-canvas { height: 100%; z-index: 1; }
 </style>
 <script type="text/javascript"
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxV63xLfnfHCcPQzqbIzpe1izK3OLjPyc&language=ja">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxV63xLfnfHCcPQzqbIzpe1izK3OLjPyc&language=en">
 </script>
-<script type="text/javascript" src="js/marker.js"></script>
+<script type="text/javascript" src="js/style.js"></script>
+<script type="text/javascript" src="js/clickmarker.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+<script src="js/ng.js"></script>
 
 <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
+<link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-	<div id="map-canvas"></div><!--/#map-canvas-->
-	<div class="flui-contailer">
-		<a id="add" href="#">Click here to check add marker</a>		
-	</div>
+    <div id="map-canvas"></div><!--/#map-canvas-->
+    <div id="sidebar" class="col-md-12" >
+        <a id="add" href="#" class="btn btn-primary" onclick="get_location()">Show my location</a>
+    </div>
 </body>
+
+
+
 </html>
+
+
+

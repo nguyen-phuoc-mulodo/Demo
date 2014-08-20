@@ -22,3 +22,9 @@ var maker = google.maps.Marker({
     draggable:true,
     animation: google.maps.Animation.DROP,    
 });
+
+//*** Load google maps:
+google.maps.event.addDomListener(window, 'load', initialize);
+
+//*** Add a listener
+google.maps.event.addListener(marker, 'dblclick', function() {});
