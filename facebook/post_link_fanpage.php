@@ -59,6 +59,8 @@ if (isset($session)) { // Login successful
           '/'.$page_id.'/feed',
           array (
             'message' => 'Hello, Geekboy!',
+            'scheduled_publish_time'=> 1408959960,
+            'published' => false,
           )
         );
         $response = $request->execute();
