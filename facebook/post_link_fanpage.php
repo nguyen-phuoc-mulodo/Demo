@@ -48,7 +48,7 @@ if (isset($session)) { // Login successful
         
         
         $page_token = $Geekboy_page->getAccessToken();
-        echo $page_id;
+        echo $page_idunction;
         exit;
         /* make the API call */
         
