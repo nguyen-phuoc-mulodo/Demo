@@ -42,11 +42,15 @@ if (isset($session)) { // Login successful
         $grapObject = $response->getGraphObjectList(Facebook\GraphPage::className());
         
         $Geekboy_page = $grapObject[0];
-        
-        
+
         $page_id = $Geekboy_page->getId();
         $page_name = $Geekboy_page->getName();
         $page_token = $Geekboy_page->getAccessToken();
+<<<<<<< HEAD
+=======
+        echo $page_id;
+        exit;
+>>>>>>> 868a3c1fe4536408461b5dd9f48b5af5fe33e136
         /* make the API call */
         
         $page_session = new FacebookSession($page_token);
@@ -62,7 +66,6 @@ if (isset($session)) { // Login successful
         );
         $response = $request->execute();
         $graphObject = $response->getGraphObject(Facebook\GraphPage::className());
-        
         /* handle the result */
         echo "Posted with id: ". $graphObject->getProperty('id');
         

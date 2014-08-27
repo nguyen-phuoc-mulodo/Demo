@@ -31,9 +31,9 @@ for (var i =0, len = a.lenght; i < len; i++) {
  * Here we are setting up two variables. The assignment in the middle part of the for loop is also tested for truthfulness — if it succeeds, the loop continues. Since i is incremented each time, items from the array will be assigned to item in sequential order. The loop stops when a "falsy" item is found (such as undefined).
  * Note that this trick should only be used for arrays which you know do not contain "falsy" values (arrays of objects or DOM nodes for example). If you are iterating over numeric data that might include a 0 or string data that might include the empty string you should use the i, len idiom instead.
  */
-for (var i = 0, item; item = a[i++]) {
-	//core here with item
-}
+//for (var i = 0, item; item = a[i++]) {
+//	//core here with item
+//}
 
 
 /*

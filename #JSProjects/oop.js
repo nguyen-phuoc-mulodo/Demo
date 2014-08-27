@@ -18,6 +18,6 @@ var Person = function() {};
 var person1 = new Person();
 var person2 = new Person();
 
-fucntion Person() {
+function Person() {
 	alert ('Person initialized');
 }
