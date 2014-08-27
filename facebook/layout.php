@@ -17,7 +17,7 @@
                 <div class="form-group clearfix">
                     <label class="control-label">Message</label>
                     <div class="">
-                        <textarea class ="form-control col-md-10" name="message" type="text"> </textarea>
+                        <textarea class="form-control col-md-10" name="message" type="text" rows="5"> </textarea>
                     </div>
                 </div>
                 <div class="form-group clearfix">
