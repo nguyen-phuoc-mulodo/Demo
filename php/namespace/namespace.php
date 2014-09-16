@@ -13,3 +13,4 @@ throw new \Exception('An exception');
 
 //
 echo 'namepsace';
+echo 'namespace';
