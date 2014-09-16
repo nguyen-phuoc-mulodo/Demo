@@ -10,3 +10,6 @@ echo __NAMESPACE__;
 
 use Exception;
 throw new \Exception('An exception');
+
+//
+echo 'namepsace';
