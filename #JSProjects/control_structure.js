@@ -28,7 +28,7 @@ if (name == "puppies") {
 // Do while
  do {
  	//code here
- } while (true
+ } while (true)
 
 
 

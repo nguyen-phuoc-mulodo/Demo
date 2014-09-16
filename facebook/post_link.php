@@ -51,9 +51,7 @@ if (isset($session)) { // Login successful
 
 	} catch (Exception $ex) {
 		echo $ex->getMessage();
-	}    
-
-    print_r($session);
+	}
 
 } else { // Not logged
     echo 'Not logged <br/>';

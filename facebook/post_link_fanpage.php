@@ -45,11 +45,8 @@ if (isset($session)) { // Login successful
 
         $page_id = $Geekboy_page->getId();
         $page_name = $Geekboy_page->getName();
-        
-        
         $page_token = $Geekboy_page->getAccessToken();
-        echo $page_idunction;
-        exit;
+
         /* make the API call */
         
         $page_session = new FacebookSession($page_token);
@@ -59,7 +56,7 @@ if (isset($session)) { // Login successful
           '/'.$page_id.'/feed',
           array (
             'message' => 'Hello, Geekboy!',
-            'scheduled_publish_time'=> 1408959960,
+            'scheduled_publish_time'=> '2013-01-02T04:29:33+0000',
             'published' => false,
           )
         );
