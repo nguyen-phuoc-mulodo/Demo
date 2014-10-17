@@ -48,15 +48,16 @@ function upload_image($arr = array()) {
         try {
             $page_id = '121809317986153';
             $request = new FacebookRequest(
-              $page_session,
-              'POST',
-              '/'.$page_id.'/photos',
-              array (
-                 'url'      => 'http://k14.vcmedia.vn/thumb_w/600/TUcCKsDLlXNsjUG7RZV5C4G4GPDR4i/Image/2012/12/thu-gui-noi-buon-6-f96ea.jpg',
-                  'message' => $arr['message'],
-                  'published' => false,
-                  'scheduled_publish_time' => $arr['datetime'],
-              )
+                $page_session,
+                'POST',
+                '/'.$page_id.'/photos',
+                array (
+                    //'url'      => 'http://k14.vcmedia.vn/thumb_w/600/TUcCKsDLlXNsjUG7RZV5C4G4GPDR4i/Image/2012/12/thu-gui-noi-buon-6-f96ea.jpg',
+                    'message' => $arr['message'],
+                    'published' => false,
+                    'scheduled_publish_time' => $arr['datetime'],
+                    'source' => new CURLFile('C:\Users\user22\Downloads\Geekboy_old.jpg', 'image/png'),
+                )
             );
             $response = $request->execute();
 

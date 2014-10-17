@@ -50,14 +50,14 @@ if (isset($session)) { // Login successful
         
         $page_session = new FacebookSession($page_token);
         $request = new FacebookRequest(
-          $page_session,
-          'POST',
-          '/'.$page_id.'/feed',
-          array (
-            'message' => 'Hello, Geekboy!',
-            'scheduled_publish_time'=> '2013-01-02T04:29:33+0000',
-            'published' => false,
-          )
+            $page_session,
+            'POST',
+            '/'.$page_id.'/feed',
+            array (
+                'message' => 'Hello, Geekboy!',
+                'scheduled_publish_time'=> '',
+                'published' => false,
+            )
         );
         $response = $request->execute();
         $graphObject = $response->getGraphObject(Facebook\GraphPage::className());

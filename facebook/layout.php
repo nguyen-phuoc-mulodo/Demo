@@ -2,6 +2,9 @@
 <head>
     <title>Facebook Login</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css"/>
     <style>
         .container {
             margin-top: 40px;
@@ -40,12 +43,11 @@
 </div>
 </body>
     <!-- this should go after your </body> -->
-    <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css"/ >
     <script src="js/jquery.js"></script>
     <script src="js/jquery.datetimepicker.js"></script>
     <script>
         $(".datetime-picker").datetimepicker();
     </script>
-    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" type="text/javascript"></script>
 </html>
