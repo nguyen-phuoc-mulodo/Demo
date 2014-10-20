@@ -54,19 +54,11 @@ function upload_image($arr = array()) {
                 'POST',
                 '/'.$page_id.'/photos',
                 array (
-<<<<<<< HEAD
-                    //'url'      => 'http://k14.vcmedia.vn/thumb_w/600/TUcCKsDLlXNsjUG7RZV5C4G4GPDR4i/Image/2012/12/thu-gui-noi-buon-6-f96ea.jpg',
-                    'message' => $arr['message'],
-                    'published' => false,
-                    'scheduled_publish_time' => $arr['datetime'],
-                    'source' => new CURLFile('C:\Users\user22\Downloads\Geekboy_old.jpg', 'image/png'),
-=======
                     'url'      => 'http://k14.vcmedia.vn/thumb_w/600/TUcCKsDLlXNsjUG7RZV5C4G4GPDR4i/Image/2012/12/thu-gui-noi-buon-6-f96ea.jpg',
                     'message' => $arr['message'],
                     'published' => false,
                     'scheduled_publish_time' => $arr['datetime'],
                     //'source' => new CURLFile(realpath('/home/echpay/Downloads/avatar.jpg'), 'image/png'),
->>>>>>> origin/master
                 )
             );
                
