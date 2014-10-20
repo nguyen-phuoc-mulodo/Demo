@@ -1,0 +1,45 @@
+/* HEADER */
+header {
+	height: 150px;
+	background-color: #FF0000;
+	position: fixed;
+	top 0;
+	width: 100%;
+	z-index: 9999;
+	transition: 0.3s height;
+	-moz-transition: 0.3s height;
+	-webkit-transition: 0.3s height;
+	-ms-transition: 0.3s height;
+	-o-transition: 0.3s height;
+}
+
+#inner-wrapper {
+	height: 150px; width: 430px;
+	margin: 0 auto;
+}
+#inner-wrapper #logo {
+	float: left;
+	padding: 0 20px;
+}
+#inner-wrapper #logo h2{
+	line-height: 120px;
+	font-weight: bold;
+	font-size: 75px;
+	font-family: 'Open-sans', sans-serif;
+	color: #fff;
+}
+#inner-wrapper .marker-logo-right, #inner-wrapper .marker-logo-left {
+	float: left;
+	padding: 45px 0;
+	display: inline-block;
+	width: 100px; height: 150px;
+}
+#inner-wrapper .marker-logo-right span, #inner-wrapper .marker-logo-left span{
+	display: inline-block;
+	background: #fff;
+	height: 5px; width: 100px;
+}
+
+#wrapper {
+	padding-top: 150px;
+}

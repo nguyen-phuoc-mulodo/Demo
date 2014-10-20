@@ -46,6 +46,7 @@ if (isset($session)) { // Login successful
         $page_id = $Geekboy_page->getId();
         $page_name = $Geekboy_page->getName();
         $page_token = $Geekboy_page->getAccessToken();
+
         /* make the API call */
         
         $page_session = new FacebookSession($page_token);

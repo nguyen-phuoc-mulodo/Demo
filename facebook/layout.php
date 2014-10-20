@@ -16,7 +16,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <form action="post_image.php" method="post">
+            <form action="post_image.php" method="post" enctype="multipart/form-data">
                 <div class="form-group clearfix">
                     <label class="control-label">Message</label>
                     <div class="">
