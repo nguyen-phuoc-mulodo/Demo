@@ -13,8 +13,35 @@ header {
 	-o-transition: height 0.3s ;
 }
 
+/* SMALL HEADER */
+header.smaller {
+	height: 75px;
+}
+
+header.smaller #inner-wrapper {
+	height: 75px; /*width: 266px;*/
+	width: 120px;
+}
+
+header.smaller #inner-wrapper #logo h2{
+	line-height: 45px;
+	font-size: 30px;
+}
+header.smaller #inner-wrapper .marker-logo-right, header.smaller #inner-wrapper .marker-logo-left {
+	padding: 5px 0;
+	width: 75px; height: 75px;
+}
+header.smaller #inner-wrapper .marker-logo-right span, header.smaller #inner-wrapper .marker-logo-left span{
+	display: inline-block;
+	background: #fff;
+	height: 5px; width: 75px;
+}
+
+/* ORIGIN HEADER */
+
 #inner-wrapper {
-	height: 150px; width: 430px;
+	height: 150px; /*width: 430px;*/
+	width: 230px;
 	margin: 0 auto;
 }
 #inner-wrapper #logo {
@@ -27,19 +54,39 @@ header {
 	font-size: 75px;
 	font-family: 'Open-sans', sans-serif;
 	color: #fff;
+	transition: all 0.3s ;
+	-moz-transition: all 0.3s ;
+	-webkit-transition: all 0.3s ;
+	-ms-transition: all 0.3s ;
+	-o-transition: all 0.3s ;
 }
 #inner-wrapper .marker-logo-right, #inner-wrapper .marker-logo-left {
 	float: left;
 	padding: 45px 0;
 	display: inline-block;
 	width: 100px; height: 150px;
+	transition: height 0.3s ;
+	-moz-transition: height 0.3s ;
+	-webkit-transition: height 0.3s ;
+	-ms-transition: height 0.3s ;
+	-o-transition: height 0.3s ;	
 }
 #inner-wrapper .marker-logo-right span, #inner-wrapper .marker-logo-left span{
 	display: inline-block;
 	background: #fff;
 	height: 5px; width: 100px;
+	position: relative;
+	top: 0;
+	transition: top .3s;
+	-webkit-transition: top .3s;
+	-moz-transition: top .3s;
 }
-
+#inner-wrapper .marker-logo-right:hover span.top, #inner-wrapper .marker-logo-left:hover span.top{
+	top: -3px;
+}
+#inner-wrapper .marker-logo-right:hover span.bottom, #inner-wrapper .marker-logo-left:hover span.bottom{
+	top: 3px;
+}
 #wrapper {
 	padding-top: 150px;
 }

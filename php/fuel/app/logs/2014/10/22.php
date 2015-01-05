@@ -1,0 +1,132 @@
+<?php defined('COREPATH') or exit('No direct script access allowed'); ?>
+
+WARNING - 2014-10-22 03:34:01 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 03:34:01 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 03:34:02 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 03:34:02 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 03:44:22 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 03:44:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 03:44:27 --> Notice - Undefined variable: view in E:\xampp\htdocs\fuelphp-1.7.2\fuel\app\classes\controller\helloworld.php on line 18
+WARNING - 2014-10-22 03:44:30 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 03:44:35 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 03:45:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 03:45:37 --> Warning - Creating default object from empty value in E:\xampp\htdocs\fuelphp-1.7.2\fuel\app\classes\controller\helloworld.php on line 37
+WARNING - 2014-10-22 03:45:41 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 03:45:41 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 03:45:41 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:06:49 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:06:56 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:07:18 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:07:21 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:12:43 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:13:13 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:13:40 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:13:50 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:13:56 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:14:12 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:14:15 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:14:21 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:14:30 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:14:41 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:14:46 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:15:42 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:27:48 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:28:30 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:31:54 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:32:51 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:37:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:37:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 04:37:27 --> Notice - Undefined variable: footer in E:\xampp\htdocs\fuelphp-1.7.2\fuel\app\views\layout.php on line 17
+WARNING - 2014-10-22 04:37:29 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:46:46 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:48:10 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:48:10 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:48:10 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:49:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 04:49:23 --> Error - File "APPPATH/classes/model/post.php" does not contain class "Model\Post" in E:\xampp\htdocs\fuelphp-1.7.2\fuel\core\classes\autoloader.php on line 395
+WARNING - 2014-10-22 04:49:55 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 04:49:55 --> Error - Database results are read-only in E:\xampp\htdocs\fuelphp-1.7.2\fuel\core\classes\database\result.php on line 272
+WARNING - 2014-10-22 04:51:20 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:52:00 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:52:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:52:10 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:52:36 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:52:47 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:53:02 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 04:53:02 --> Fatal Error - Call to undefined method Fuel\Core\Database_Result_Cached::to_array() in E:\xampp\htdocs\fuelphp-1.7.2\fuel\app\classes\model\post.php on line 9
+WARNING - 2014-10-22 04:53:22 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:53:35 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:53:35 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:53:35 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:56:14 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:56:14 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:56:14 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:56:50 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:56:50 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 04:56:50 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:00:40 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 05:00:40 --> Fatal Error - Class 'OrmPost' not found in E:\xampp\htdocs\fuelphp-1.7.2\fuel\app\classes\controller\helloworld.php on line 47
+WARNING - 2014-10-22 05:00:49 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 05:00:49 --> Fatal Error - Class 'OrmPost' not found in E:\xampp\htdocs\fuelphp-1.7.2\fuel\app\classes\controller\helloworld.php on line 47
+WARNING - 2014-10-22 05:01:17 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 05:01:17 --> Error - Listing columns failed, you have to set the model properties with a static $_properties setting in the model. Original exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.post' doesn't exist in E:\xampp\htdocs\fuelphp-1.7.2\fuel\packages\orm\classes\model.php on line 305
+WARNING - 2014-10-22 05:01:34 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:01:35 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:01:35 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:01:57 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:01:57 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:01:57 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:06:36 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 05:06:36 --> Notice - Trying to get property of non-object in E:\xampp\htdocs\fuelphp-1.7.2\fuel\app\views\content.php on line 6
+WARNING - 2014-10-22 05:06:55 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 05:06:55 --> Fatal Error - Class 'OrmPost' not found in E:\xampp\htdocs\fuelphp-1.7.2\fuel\app\classes\controller\helloworld.php on line 48
+WARNING - 2014-10-22 05:07:32 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:07:32 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:07:32 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:07:41 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 05:07:41 --> Error - File "APPPATH/classes/model/ormpost.php" does not contain class "Model_OrmPost" in E:\xampp\htdocs\fuelphp-1.7.2\fuel\core\classes\autoloader.php on line 395
+WARNING - 2014-10-22 05:07:53 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:07:54 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:07:54 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:08:11 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 05:08:11 --> Fatal Error - Class 'Model\Model_OrmPost' not found in E:\xampp\htdocs\fuelphp-1.7.2\fuel\app\classes\controller\helloworld.php on line 47
+WARNING - 2014-10-22 05:08:20 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 05:08:20 --> Fatal Error - Class 'Model\Model_OrmPost' not found in E:\xampp\htdocs\fuelphp-1.7.2\fuel\app\classes\controller\helloworld.php on line 47
+WARNING - 2014-10-22 05:08:36 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 05:08:36 --> Error - File "APPPATH/classes/model/ormpost.php" does not contain class "Model_OrmPost" in E:\xampp\htdocs\fuelphp-1.7.2\fuel\core\classes\autoloader.php on line 395
+WARNING - 2014-10-22 05:08:52 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 05:08:52 --> Fatal Error - Class 'Model\Model_OrmPost' not found in E:\xampp\htdocs\fuelphp-1.7.2\fuel\app\classes\controller\helloworld.php on line 47
+WARNING - 2014-10-22 05:08:57 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:08:57 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:08:57 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:09:30 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:09:30 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:09:30 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:10:32 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:10:32 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:10:32 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:10:35 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:10:35 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:10:35 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:18:52 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2014-10-22 05:18:52 --> Fatal Error - Class 'Controlelr' not found in E:\xampp\htdocs\fuelphp-1.7.2\fuel\app\classes\controller\helloworld.php on line 4
+WARNING - 2014-10-22 05:19:02 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:19:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:20:30 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:22:01 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:23:45 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:34:13 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:35:05 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:37:18 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:38:47 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:38:48 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:38:48 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:43:18 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:43:18 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:43:18 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:44:04 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:44:04 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:44:04 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:51:04 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:51:04 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2014-10-22 05:51:04 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
