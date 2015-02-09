@@ -1,0 +1,13 @@
+{% extends "base.twig" %}
+
+{% block content %}
+    {{ parent() }}
+    {{ 'cde' in 'abcde' }}
+{% endblock %}
+
+{% block footer %}
+    {{ parent() }}
+    Nguyen Huu Phuoc
+    {{ range(1, 10)|join(' ') }}
+{% endblock %}
+
